@@ -10,28 +10,28 @@ export class Graficas1Component implements OnInit {
 
    graficos: any = {
       grafico1: {
-      labels: ['Con Frijoles', 'Con Natilla', 'Con tocino'],
-      data:  [24, 30, 46],
+      labels: ['ACCENTURE', 'SERVIEX', 'NN'],
+      data:  [[24, 30, 46], [24, 30, 46]],
       type: 'doughnut',
-      leyenda: 'El pan se come con'
+      leyenda: 'Proveedores año 2019-2018'
     },
     grafico2: {
-      labels: ['Hombres', 'Mujeres'],
-      data:  [4500, 6000],
+      labels: ['Presupuestado ', 'Incurrido'],
+      data:  [123000100, 60400300],
       type: 'doughnut',
-      leyenda: 'Entrevistados'
+      leyenda: 'Presupuesto 2019'
     },
     grafico3: {
-      labels: ['Si', 'No'],
-      data:  [95, 5],
+      labels: ['Transmision de Datos', 'Telefonia Fija','Consumo y Mantencion'],
+      data:  [9, 5, 8],
       type: 'doughnut',
-      leyenda: '¿Le dan gases los frijoles?'
+      leyenda: 'Distribucion por cuenta contable'
     },
     grafico4: {
-      labels: ['No', 'Si'],
-      data:  [85, 15],
+      labels: ['Licencias Aplica', 'Tel. Moviles o Celulares','Servicios CAU'],
+      data:  [30, 45,87],
       type: 'doughnut',
-      leyenda: '¿Le importa que le den gases?'
+      leyenda: 'PPTO año'
     },
   };
 
